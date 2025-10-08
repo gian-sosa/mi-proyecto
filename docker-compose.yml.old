@@ -1,0 +1,36 @@
+services:
+  jenkins:
+    build:
+      context: ./jenkins
+      dockerfile: Dockerfile
+    container_name: jenkins
+    ports:
+      - "8080:8080"   # Web UI
+      - "50000:50000" # JNLP agentes
+    environment:
+      - JENKINS_OPTS=--prefix=/    # opcional
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://localhost:8080/login"] 
+      interval: 20s
+      timeout: 5s
+      retries: 10
+
+  ngrok:
+    build:
+      context: ./ngrok
+      dockerfile: Dockerfile
+    container_name: ngrok
+    depends_on:
+      jenkins:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    #command: ["ngrok", "start", "--all", "--config", "/etc/ngrok.yml"]
+    command: ["start", "--all", "--config", "/etc/ngrok.yml"]
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:

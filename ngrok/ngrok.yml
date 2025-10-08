@@ -1,0 +1,10 @@
+version: "3"
+tunnels:
+  jenkins:
+    proto: http
+    addr: jenkins:8080
+    # Agregar Seguridad
+    #basic_auth:
+    #  - admin:UnPasswordFuerte123
+    # Si necesitas una URL reservada, crea un “reserved domain” en el dashboard de ngrok y agrega
+    #hostname: TU-DOMINIO.ngrok-free.app

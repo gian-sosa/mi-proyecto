@@ -1,0 +1,7 @@
+git
+workflow-aggregator
+blueocean
+maven-plugin
+slack
+sonar
+#sonar-scanner
