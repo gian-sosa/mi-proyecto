@@ -39,7 +39,7 @@ La solución se plantea inicialmente como una aplicación web de tipo SPA, con a
 | OB02 | Facilitar la planificación de la visita mediante información clara y accesible. | Visitantes que llegan al zoológico con la información necesaria. |
 | OB03 | Fomentar el aprendizaje sobre las especies mediante contenido educativo interactivo. | Mejor experiencia educativa y recreativa. |
 | OB04 | Crear una comunidad de visitantes que comparta fotografías. | Mayor interacción y difusión del zoológico. |
-| OB05 | Centralizar la administración de tarifas y contenido. | Gestión más rápida, ordenada y controlada por personal autorizado. |
+| OB05 | Centralizar la administración de tarifas y contenido. | Gestión más rápida, organizada y controlada por personal autorizado. |
 | OB06 | Preparar la plataforma para crecer y compartir datos entre usuarios. | Evolución del almacenamiento local a una base de datos centralizada (Supabase). |
 
 ---
@@ -68,7 +68,7 @@ La solución se plantea inicialmente como una aplicación web de tipo SPA, con a
 | HU04 | Como visitante, quiero interactuar con recursos educativos como sonidos y cuestionarios, para aprender de manera entretenida. |
 | HU05 | Como visitante, quiero compartir fotografías de mi visita, para participar en la comunidad del zoológico. |
 | HU06 | Como administrador, quiero iniciar sesión en el panel administrativo, para acceder de manera restringida a las funciones de gestión. |
-| HU07 | Como administrador, quiero modificar las tarifas, para mantener actualizados los precios del zoológico. |
+| HU07 | Como administrador, quiero modificar las tarifas, para mantener actualizada la información del zoológico. |
 | HU08 | Como administrador, quiero moderar las fotografías publicadas por visitantes, para mantener controlado el contenido de la comunidad. |
 | HU09 | Como administrador, quiero consultar el catálogo de animales publicado, para verificar el contenido disponible en la plataforma. |
 
