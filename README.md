@@ -2,6 +2,7 @@
 
 > Plataforma web interactiva del Parque Zoológico La Totorilla (Ayacucho, Perú).
 > **Curso:** IS-488 Arquitectura de Software · UNSCH · Semestre 2026-II
+> **Nombre:** Gian Carlos Mallqui Sosa 
 > **Sitio desplegado:** [zoologico-totorilla.vercel.app](https://zoologico-totorilla.vercel.app)
 
 ---
