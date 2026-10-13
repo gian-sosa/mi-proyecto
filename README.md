@@ -1,4 +1,4 @@
-# Parque Zoológico La Totorilla - Plataforma Web
+# Parque Zoológico La Totorilla - Plataforma Web Interactiva
 
 > Plataforma web interactiva del Parque Zoológico La Totorilla (Ayacucho, Perú).
 > **Curso:** IS-488 Arquitectura de Software · UNSCH · Semestre 2026-II
